@@ -1,0 +1,73 @@
+a:hover{TEXT-TRANSFORM: none; COLOR: #00FF00; TEXT-DECORATION: none; text-align: center; FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+
+body {background-color: #FFFFFF; color: #FFFFFF;
+   SCROLLBAR-FACE-COLOR:#ffffff;		
+	SCROLLBAR-HIGHLIGHT-COLOR:#F4C7AE;  	
+	SCROLLBAR-SHADOW-COLOR:#F4C7AE;		
+	SCROLLBAR-3DLIGHT-COLOR:#ffffff;	
+	SCROLLBAR-ARROW-COLOR:#F4C7AE;		
+	SCROLLBAR-TRACK-COLOR:#ffffff;		
+	SCROLLBAR-DARKSHADOW-COLOR:#ffffff;	
+}
+a {color: #FFFFFF; text-decoration: none} /* muda de cor quando o mouse passa em cima*/
+td, div { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000}
+
+.Fundo1 {BACKGROUND-COLOR: #fff6cb}
+.Fundo2 {BACKGROUND-COLOR: #9da1c9 ; color: #006600}
+.Fundo3 {BACKGROUND-COLOR: #3f4491}  /* quadrado da senha*/
+.Fundo4 {BACKGROUND-COLOR: #FCF0E9}
+
+.TextoBrancoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextoVermelhoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #FF9900; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextBox {FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif}
+.aviso { color: #6F6F6F }					/* header/footer links */
+.ordem { background-color: #E1E1E1; text-align: right}				/* row #1 used on maps pages */
+.titulo { background-color: #666633; font-weight: bold; color: #FFFFFF }	/* badguy team header */
+.tituloLabel {FONT-FAMILY:Arial; font-weight: normal; color: #006600; FONT-SIZE:11} 
+.favoritos2 {BORDER-RIGHT: #9fbcd9 1px solid; BORDER-TOP: #9fbcd9 1px solid;  BORDER-LEFT: #9fbcd9 1px solid; BORDER-BOTTOM: #9fbcd9 1px solid;FONT: 10px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; WIDTH: 110px; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none}
+.favoritos {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 14px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none}
+.favoritosCen {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 14px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: center}
+.favoritosDir {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 14px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: right}
+.favoritosEsq {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 14px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: left}
+.mens_aguarde {BORDER-RIGHT: #FCF0E9 1px solid; BORDER-TOP: #FCF0E9 1px solid;  BORDER-LEFT: #FCF0E9 1px solid; BORDER-BOTTOM: #FCF0E9 1px solid;FONT: 15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #009999; HEIGHT: 20px; BACKGROUND-COLOR: #FCF0E9; TEXT-DECORATION: none; text-align: right}
+.menu_campos {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px arial; TEXT-TRANSFORM: none;FONT-WEIGHT: BOLD, ITALIC; WIDTH: 170px; COLOR: #333333; HEIGHT: 12px; BACKGROUND-COLOR: #339999; TEXT-DECORATION: none; text-align: center}
+.menu_princ { BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 12px Arial, Helvetica, sans-serif; FONT-STYLE: ITALIC;FONT-WEIGHT: BOLD, ITALIC; TEXT-TRANSFORM: none; WIDTH: 170px; COLOR: #0033FF; HEIGHT: 12px; BACKGROUND-COLOR: #0f589f; TEXT-DECORATION: none; text-align: center}
+.menu_princ2 { BORDER-RIGHT: #1AA3D0 1px solid; BORDER-TOP: #1AA3D0 1px solid;  BORDER-LEFT: #1AA3D0 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 12px Arial, Helvetica, sans-serif; FONT-STYLE: ITALIC;FONT-WEIGHT: BOLD, ITALIC; TEXT-TRANSFORM: none; WIDTH: 170px; COLOR: #0033FF; HEIGHT: 12px; BACKGROUND-COLOR: #0f589f; TEXT-DECORATION: none; text-align: center}
+.desativado { BORDER-RIGHT: #9da1c9 1px solid; BORDER-TOP: #9da1c9 1px solid;  BORDER-LEFT: #9da1c9 1px solid; BORDER-BOTTOM: #9da1c9 1px solid;FONT: 12px Arial, Helvetica, sans-serif; FONT-STYLE: ITALIC;FONT-WEIGHT: BOLD, ITALIC; TEXT-TRANSFORM: none; WIDTH: 170px; COLOR: #0033FF; HEIGHT: 12px; BACKGROUND-COLOR: #9da1c9; TEXT-DECORATION: none; text-align: center}
+.contorno {margin:0px 0px 0px 10px;BORDER-RIGHT: #FFD9B3 1px solid; BORDER-TOP:#FFD9B3 1px solid;  BORDER-LEFT: #FFD9B3 1px solid; BORDER-BOTTOM: #FFD9B3 1px solid;FONT: 12px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; WIDTH:100%; HEIGHT: 12px; BACKGROUND-COLOR:#FFFFFF; TEXT-DECORATION: none; text-align: center}
+
+.TituloMenu {FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Verdana, Arial; TEXT-ALIGN: center; FONT-VARIANT: normal; TEXT-DECORATION: none}
+.QuadroConsulta {FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3f4491; LINE-HEIGHT: 18px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fff6cb}
+.TextoTabela { FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #ffffff}
+.BotaoAzul    {CURSOR: hand; BORDER-RIGHT: #3f4491 1px solid; BORDER-TOP: #3f4491 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #3f4491 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #3f4491 1px solid; ;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.BotaoAmarelo {CURSOR: hand; BORDER-RIGHT: #3f4491 1px solid; BORDER-TOP: #3f4491 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #3f4491 1px solid; COLOR: #3f4491; BORDER-BOTTOM: #3f4491 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.pagAtiva {color: #0000ff;BORDER-BOTTOM: #336600 1px solid;FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+.pagDisp {color: #3300AA;FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+.TextoAzulTitulo {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f4491; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextoBrancoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}   /*#FCF0E9
+
+.tablebg { color: #FF9900; background-color: #000000 }				/* table border color */
+.listhead { background-color: #666633 }				/* table headers for any type of list */
+.selhead { background-color: #444411 }				/* table header color for the currently selected sort column */
+.plrlink { color: #FFCC99 }				/* link for players in main index player listing */
+.row1 { background-color: #CCCCCC }				/* generic row #1 */
+.row2 { background-color: #EEEEEE }				/* generic row #2 */
+.maprow2 { background-color: #555555 }				/* row #2 ... */
+.plrrow1 { background-color: #333333 }				/* row #1 used on player lists (index, clans) */
+.plrrow2 { background-color: #555555 }				/* row #2 ...*/
+.plrgenhead { background-color: #666633 }			/* generic header for player pages */
+.plrgenrow1 { background-color: #333333 }			/* generic row #1 for player pages */
+.plrgenrow2 { background-color: #555555 }			/* generic row #2 ... */
+.plrkilldesc { color: #000055 }                                 /* Kill desc/legend text */
+.plrdeathdesc { color: #550000 }                                /* death desc/legend text */
+.plrdmgdesc { color: #005500 }                                  /* damage desc/legend text */
+.plracrydesc { color: #BBBB00 }                                 /* accuracy desc/legend text */ 
+.plrkillbar { background-color: #000055 }                       /* kill percentage bar for players */
+.plrdeathbar { background-color: #550000 }                      /* death bar ... */
+.plrdmgbar { background-color: #005500 }                        /* damage bar ... */
+.plracrybar { background-color: #BBBB00 }                       /* accuracy bar ... */
+.plrrolebar { background-color: #000055 }			/* roles bar ... */
+.plrweaponawardfont { color: #AAAA00; font-weight: bold }	/* player weapon awards 'highlight' */
+.plrawardfont { color: #AAAA00; font-weight: bold }		/* player awards 'highlight' */
+.goodhead { background-color: #000033 }				/* goodguy team header */
+.badhead { background-color: #330000 }				/* badguy team header */

@@ -1,0 +1,53 @@
+a:hover{TEXT-TRANSFORM: none; COLOR: #FF9900; TEXT-DECORATION: none; text-align: center; FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+
+body {background-color: #FFFFFF; color: #FFFFFF;
+	SCROLLBAR-FACE-COLOR:#ffffff;		
+	SCROLLBAR-HIGHLIGHT-COLOR:#F4C7AE;  	
+	SCROLLBAR-SHADOW-COLOR:#F4C7AE;		
+	SCROLLBAR-3DLIGHT-COLOR:#ffffff;	
+	SCROLLBAR-ARROW-COLOR:#F4C7AE;		
+	SCROLLBAR-TRACK-COLOR:#ffffff;		
+	SCROLLBAR-DARKSHADOW-COLOR:#ffffff;	
+}
+a {color: #ffffff; text-decoration: none} /* muda de cor quando o mouse passa em cima*/
+td, div { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000}
+.Fundo1 {BACKGROUND-COLOR: #fff6cb}
+.Fundo2 {BACKGROUND-COLOR: #9da1c9 ; color: #006600}
+.Fundo3 {BACKGROUND-COLOR: #3f4491}  /* quadrado da senha*/
+.Fundo4 {BACKGROUND-COLOR: #FCF0E9}
+.TextoBrancoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextoVermelhoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #FF9900; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextBox {FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif}
+.aviso { color: #6F6F6F }					/* header/footer links */
+.ordem { background-color: #E1E1E1; text-align: right}				/* row #1 used on maps pages */
+.titulo { background-color: #666633; font-weight: bold; color: #FFFFFF }	/* badguy team header */
+.tituloLabel {FONT-FAMILY:Arial; font-weight: normal; color: #006600; FONT-SIZE:11} 
+.favoritos2 {BORDER-RIGHT: #9fbcd9 1px solid; BORDER-TOP: Red 1px solid;  BORDER-LEFT: #9fbcd9 1px solid; BORDER-BOTTOM: #9fbcd9 1px solid;FONT: 10px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; WIDTH: 110px; COLOR: #333333; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none}
+.favoritos {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none}
+.favoritosCen {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: center}
+.favoritosDir {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: right}
+.favoritosEsq {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: left}
+.combo {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: red 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; HEIGHT: 12px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none; text-align: center}
+.mens_aguarde {BORDER-RIGHT: #FCF0E9 1px solid; BORDER-TOP: #FCF0E9 1px solid;  BORDER-LEFT: #FCF0E9 1px solid; BORDER-BOTTOM: #FCF0E9 1px solid;FONT: 15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #009999; HEIGHT: 20px; BACKGROUND-COLOR: #FCF0E9; TEXT-DECORATION: none; text-align: right}
+.menu_campos {BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 11px arial; TEXT-TRANSFORM: none;FONT-WEIGHT: BOLD, ITALIC; WIDTH: 170px; COLOR: #333333; HEIGHT: 12px; BACKGROUND-COLOR: #339999; TEXT-DECORATION: none; text-align: center}
+.menu_princ { BORDER-RIGHT: #336600 1px solid; BORDER-TOP: #336600 1px solid;  BORDER-LEFT: #336600 1px solid; BORDER-BOTTOM: #336600 1px solid;FONT: 12px Arial, Helvetica, sans-serif; FONT-STYLE: ITALIC;FONT-WEIGHT: BOLD, ITALIC; TEXT-TRANSFORM: none; WIDTH: 170px; COLOR: #0033FF; HEIGHT: 12px; BACKGROUND-COLOR: #0f589f; TEXT-DECORATION: none; text-align: center}
+.desativado { BORDER-RIGHT: #9da1c9 1px solid; BORDER-TOP: #9da1c9 1px solid;  BORDER-LEFT: #9da1c9 1px solid; BORDER-BOTTOM: #9da1c9 1px solid;FONT: 12px Arial, Helvetica, sans-serif; FONT-STYLE: ITALIC;FONT-WEIGHT: BOLD, ITALIC; TEXT-TRANSFORM: none; WIDTH: 170px; COLOR: #0033FF; HEIGHT: 12px; BACKGROUND-COLOR: #9da1c9; TEXT-DECORATION: none; text-align: center}
+.contorno {margin:0px 0px 0px 10px;BORDER-RIGHT: #9da1c9 1px solid; BORDER-TOP: #9da1c9 1px solid;  BORDER-LEFT: #9da1c9 1px solid; BORDER-BOTTOM: #9da1c9 1px solid;FONT: 12px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; WIDTH:100%; HEIGHT: 12px; BACKGROUND-COLOR:#FFFFFF; TEXT-DECORATION: none; text-align: center}
+.TituloMenu {FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Verdana, Arial; TEXT-ALIGN: center; FONT-VARIANT: normal; TEXT-DECORATION: none}
+.QuadroConsulta {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3f4491; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fff6cb}
+.TextoTabela { FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #ffffff}
+.textogrid {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial, Verdana;
+	BACKGROUND-COLOR: White;
+	line-height: 11px;
+	height: 11px;
+	border-top: Yellow;
+}
+.BotaoAzul    {CURSOR: hand; BORDER-RIGHT: #3f4491 1px solid; BORDER-TOP: #3f4491 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #3f4491 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #3f4491 1px solid; ;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.BotaoAmarelo {CURSOR: hand; BORDER-RIGHT: #3f4491 1px solid; BORDER-TOP: #3f4491 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #3f4491 1px solid; COLOR: #3f4491; BORDER-BOTTOM: #3f4491 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.pagAtiva {color: #0000ff;BORDER-BOTTOM: #336600 1px solid;FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+.pagDisp {color: #3300AA;FONT-WEIGHT: bold;FONT:Arial,Helvetica,sans-serif}
+.TextoAzulTitulo {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f4491; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.TextoBrancoTitulo {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+

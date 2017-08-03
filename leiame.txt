@@ -1,0 +1,49 @@
+Procedimeno para abrir no ECLIPSE.
+
+1) Abrir novo projeto java no Eclipse e apontar a pasta do Geraclasse.
+2) Vá em Projetos->Propriedades->Java Build Paths-> Add Extenal JARS e adicone o arquivo "servlet-api.jar". Esse arquivo é necessário porque é referenciado nas classes que serão geradas pelo Eclipse. Pode ser encontrado no TOMCAT.
+3) O Eclipse criará, por default, a pasta \bin onde colocará as classes compiladas. Deixar o nome "bin" pois será usado pelo build.xml. 
+4) Executar o Geraclasse.java. Na tela, escolher a tabela, colocar o nome do projeto, selecionar todas as colunas e clicar para gerar.
+5) O GeraClasse, apenas gera os arquivos (abaixo) na pasta c:\Geraclasse\Arquivos_gerados. A pasta é criada caso não exista.
+
+	 AtualizaxxxxxxxServlet.java    
+	 build.xml                      
+	 build_prj.xml                  
+	 Consultarxxxxxxx.jsp           
+	 ConsultaxxxxxxxServlet.java    
+	 ExcluixxxxxxxServlet.java      
+	 Grid_Camposxxxxxxx.jsp         
+	 Grid_Detalhexxxxxxx.jsp        
+	 InserexxxxxxxServlet.java      
+	 MenuPrincxxxxxxx.jsp           
+	 xxxxxxx.java                   
+	 xxxxxxx.xml                    
+	 xxxxxxxDAO.java                
+	 xxxxxxxDB.java                 
+	 web.xml_xxxxxxx                
+
+	Os passos abaixo são para serem executados com os arquivos da pasta TEMPLATE que não tem nada haver com o GeraClasse, porque essa parte não está automatizada ainda. 
+
+	* Os passos "a" e "b" são usados quando for usar o GeraClasse para gerar arquivos a partir de um xml(o mesmo gerado por ele mesmo)
+	---------------------------------------------------------------------
+	a) Criar o arquivo XML
+	b) Alterar o xml se houver chave estrageira, para montar o combo automaticamente. Lembrando que a tag repositorio representa a tabela da chave estrangeira e a tag tabrespos representa a coluna descricao e a tag chaveresp representa a coluna chave da tabela estrangeira.
+	--------------------------------------------------------------------------
+
+	c) Incluir no projeto o arquivo build.xml criado pelo Geraclasse para poder executá-lo.
+
+	d) Executar o target "carrega_arqs" do Build.xml no ANT. 
+	   Toda a estrutura será criada e o os arquivos serão movidos ou copiados para suas devidas pastas.
+
+	e) Agrupar os arquivos web_xxxx.xml num único arquivo web.xml
+
+	f) Carregar e compilar o projeto no JCreator(Não esquecer de incluir o Build_prj.xml criado para o projeto e renomea-lo para Build.xml).
+
+	g) Executar o Build.xml do projeto. Ele carregará o TOM CAT.(Não esquecer de tirar o TOM CAT do ar, primeiro).
+
+6) Criar outro projeto, tipo Web - Dynamic Web Project, apontando para a pasta que foi criada pelo Build.xml. Quando compilar o projeto, o Eclipse criará uma pasta \build (essa pasta é sugerida como default quando cria o prj) onde jogará as classes criadas.
+	
+	Problemas a acertar:
+	a) Colocar os fontes .jar na pasta com.util. Atualmente o build.xml coloca os .class, deverá ser .jar
+	b) Alterar a package dos '.jars" para com.util.  Os ".jars' estão com apackage errada : com.warsys.geraclasse.util.
+	c) Copiar o arquivo BaseDAO_Pgsql.java na pasta com.xxxxx.base e alterar a package para com.xxxxx.base

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- Careega toda a estrutura para o tomcat -->
+<project default="apaga_projeto" basedir="." >
+
+   <property name="app.name" value="prjOb_beneficiario" />
+   <property name="app.home" value="C:/${app.name}" />
+   <property name="tomcat.home" value="C:\Adilson\apache-tomcat-8.5.12" />
+   <property name="deploy.home" value="${tomcat.home}/webapps/${app.name}" />
+
+   <target name="apaga_projeto">
+   	  <delete dir="E:\GeraClasse\Arquivos_gerados"/>
+      <delete dir="${deploy.home}"/>
+   	  <delete dir="${app.home}"/>
+   </target>
+</project>
+

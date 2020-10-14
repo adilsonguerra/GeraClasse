@@ -12,7 +12,7 @@ import java.sql.*;
 public class GeraClasse extends JFrame {
 	
 	//---------------------------
-	//DefiniÁ„o de vari·veis
+	//Defini√ß√£o de vari√°veis
 	//---------------------------
 
 	static String nomeEmpresaSistema; //Ex.comgas.dataentry
@@ -86,9 +86,9 @@ public class GeraClasse extends JFrame {
 	JLabel lblNomeBean = new JLabel("  Bean: ");
 	JLabel lblNomeDB = new JLabel("  DB: ");
 	JLabel lblNomeDAO = new JLabel("  DAO: ");
-	JLabel lblNomeServletInclusao = new JLabel("  Inclus„o: ");
-	JLabel lblNomeServletExclusao = new JLabel("  Exclus„o: ");
-	JLabel lblNomeServletAtualizacao = new JLabel("  AtualizaÁ„o: ");
+	JLabel lblNomeServletInclusao = new JLabel("  Inclus√£o: ");
+	JLabel lblNomeServletExclusao = new JLabel("  Exclus√£o: ");
+	JLabel lblNomeServletAtualizacao = new JLabel("  Atualiza√ß√£o: ");
 	JLabel lblNomeServletConsulta = new JLabel("  Consulta Servlet: ");
 	JLabel lblnomeConsultaHtml = new JLabel("  Consulta jsp: ");
 	JLabel lblnomeMenuPrincJsp = new JLabel("  MenuPrinc jsp: ");
@@ -101,7 +101,7 @@ public class GeraClasse extends JFrame {
 	
 			
 	//---------------------------
-	//DefiniÁ„o de mÈtodos
+	//Defini√ß√£o de m√©todos
 	//---------------------------
 
 	public static void main(String[] args) 
@@ -128,11 +128,11 @@ public class GeraClasse extends JFrame {
 		// Centraliza a janela de abertura no centro do desktop. 
 		  Dimension screen = Toolkit.getDefaultToolkit().getScreenSize(); 
 		  Rectangle r      = componente.getBounds(); 
-		// Dimensıes da janela 
+		// Dimens√µes da janela 
 		  int widthSplash = r.width ; 
 		  int heightSplash = r.height; 
 
-		// calculo para encontrar as cooredenadas X e Y para a centralizaÁ„o da janela. 
+		// calculo para encontrar as cooredenadas X e Y para a centraliza√ß√£o da janela. 
 		  int posX = (screen.width / 2) - ( widthSplash / 2 ); 
 		  int posY = (screen.height / 2) - ( heightSplash / 2 ); 
 
@@ -334,7 +334,7 @@ public class GeraClasse extends JFrame {
       
             
       
-      //Bot„o GeraClasse
+      //Bot√£o GeraClasse
 		private ActionListener btnGeraClasseClick = new ActionListener(){ 	
 			public void actionPerformed(ActionEvent ae){
 			   
@@ -343,7 +343,7 @@ public class GeraClasse extends JFrame {
             System.out.println("");
 				
 			if(!txtEmpresaSistema.getText().equals("")){
-				//Verifica se extrair· os dados de um arquivo XML
+				//Verifica se extrair√° os dados de um arquivo XML
 				//if(txtCaminhoXml.getText().equals("")){	          
 	            //if(!arquivoXML){ 
 	            //if(arquivoXML.equals("")){
@@ -353,11 +353,11 @@ public class GeraClasse extends JFrame {
 				  
 	        	extrair_xml();
 					 		 
-				JOptionPane.showMessageDialog(null, "Arquivos gerados com sucesso!", "ConfirmaÁ„o", JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.showMessageDialog(null, "Arquivos gerados com sucesso!", "Confirma√ß√£o", JOptionPane.INFORMATION_MESSAGE);
 		   
 		    }else{
 		   
-		   		JOptionPane.showMessageDialog(null, "O campo empresa n„o est· preenchido!", "Aviso", JOptionPane.WARNING_MESSAGE);
+		   		JOptionPane.showMessageDialog(null, "O campo empresa n√£o est√° preenchido!", "Aviso", JOptionPane.WARNING_MESSAGE);
             }//if
             }//void
 		
@@ -396,12 +396,12 @@ public class GeraClasse extends JFrame {
                 //Cria array de registros com tamanho do vetor
                 regConvertido = new Registros[vCol.size()];
 
-                //Copia o conte˙do do vetor para o Array
+                //Copia o conte√∫do do vetor para o Array
                 vCol.copyInto(regConvertido);
                   
                 System.out.println("regConvertido=" +regConvertido.length );
                 
-                // Aqui carregamos as vari·veis com os dados do XML
+                // Aqui carregamos as vari√°veis com os dados do XML
                   
                 Hashtable h = new Hashtable();
                 try{
@@ -441,7 +441,7 @@ public class GeraClasse extends JFrame {
                 nomeArquivoWebXmlFile = (String)h.get("nomeArquivoWebXmlFile");
                 
                 System.out.println("---------------------------------------------");
-                System.out.println("Vari·veis p˙blicas carregadas do arq XML.");
+                System.out.println("Vari√°veis p√∫blicas carregadas do arq XML.");
                 System.out.println("---------------------------------------------");
                 System.out.println("nomeTab="+nomeTabela);
                 System.out.println("nomeBean="+nomeBean);
@@ -505,7 +505,7 @@ public class GeraClasse extends JFrame {
                System.out.println("qtd linhas->"+lsColunas.getItemCount());
                
                //Cria array dos registros selecionados
-               for(int i=1;i<lsColunas.getItemCount()-1;i++){
+               for(int i=1;i<lsColunas.getItemCount();i++){
                   if (lsColunas.isIndexSelected(i)){  
                      v.add(reg[i-1]);   
                   }
@@ -513,7 +513,7 @@ public class GeraClasse extends JFrame {
                //Cria array de registros com tamanho do vetor
                regSelecionados = new Registros[v.size()];
 
-               //Copia o conte˙do do vetor para o Array
+               //Copia o conte√∫do do vetor para o Array
                v.copyInto(regSelecionados);
                   
                // Converte os tipos das colunas para o java
@@ -525,7 +525,7 @@ public class GeraClasse extends JFrame {
                
                System.out.println("regConvertido.length->"+regConvertido.length);
 
-               //Carrega a vari·veis p˙blicas que ser„o usadas na classe
+               //Carrega a vari√°veis p√∫blicas que ser√£o usadas na classe
                nomeEmpresaSistema = txtEmpresaSistema.getText();
                nomeBean = txtNomeClasse.getText().substring(0,txtNomeClasse.getText().length()-5);
                nomeDB = txtNomeDB.getText().substring(0,txtNomeDB.getText().length()-5);              
@@ -557,7 +557,7 @@ public class GeraClasse extends JFrame {
                
                
                System.out.println("---------------------------------------------");
-               System.out.println("Vari·veis p˙blicas carregadas dos campos txt`s.");
+               System.out.println("Vari√°veis p√∫blicas carregadas dos campos txt`s.");
                System.out.println("---------------------------------------------");
                System.out.println("nomeTab="+nomeTabela);
                System.out.println("nomeBean="+nomeBean);
@@ -589,11 +589,11 @@ public class GeraClasse extends JFrame {
                System.out.println("");
 
                                  
-               //ConstruÁ„o do arquivo XML 
+               //Constru√ß√£o do arquivo XML 
                GeraArqXML geraArqXML = new GeraArqXML(regConvertido);
                
                if (geraArqXML.geracao_ok == false){
-                  JOptionPane.showMessageDialog(null, "O arquivo XML N√O foi gerado!", "ConfirmaÁ„o", JOptionPane.INFORMATION_MESSAGE);
+                  JOptionPane.showMessageDialog(null, "O arquivo XML N√ÉO foi gerado!", "Confirma√ß√£o", JOptionPane.INFORMATION_MESSAGE);
                }     
 		
       };//criar_xml
@@ -635,7 +635,7 @@ public class GeraClasse extends JFrame {
                //captura o nome alterado
 					String nomeArq = txtNomeClasse.getText();
 
-					//retira a extens„o
+					//retira a extens√£o
 					nomeArq = nomeArq.substring(0,(nomeArq.length()-5));
 
 					//txtNomeClasse.setText(nomeArq +".java");
@@ -680,12 +680,12 @@ public class GeraClasse extends JFrame {
 		   }
 		   		   
 		};
-		//LÍ o XML
+		//L√™ o XML
 		
 		public static void LerXml(String arqXML){			
 					
 				try{
-					//Verifica se h· um caminho de um arquivo XML
+					//Verifica se h√° um caminho de um arquivo XML
 					if(!arqXML.equals("")){
 						XmlReader xml= new XmlReader(arqXML);
 						// Aqui carregamos o array de registros com os dados do XML
@@ -695,13 +695,13 @@ public class GeraClasse extends JFrame {
 						try{
 						  tabelas = xml.lerTabelas();
 						  lsTabelas.removeAll();
-						  System.out.println("Limpou o lsTabelas e ir· adicionar "+tabelas.length+" tabelas "+tabelas[0]);
+						  System.out.println("Limpou o lsTabelas e ir√° adicionar "+tabelas.length+" tabelas "+tabelas[0]);
 						  for (int i=0;tabelas!=null && i<tabelas.length;i++){
 							  lsTabelas.add(tabelas[i]);
 							  System.out.println("Adicionando no lsTabelas ->"+tabelas[i]);
 						  }
 						  	  
-						  arquivoXML = arqXML; //Indicar· que a tabela foi carregada por arquivo XML
+						  arquivoXML = arqXML; //Indicar√° que a tabela foi carregada por arquivo XML
 						}
 						catch (Exception e) {
 						System.out.println("Erro ao ler registros " + e.getMessage());
@@ -730,7 +730,7 @@ public class GeraClasse extends JFrame {
 					
 					//reg = null;
 					
-					//N„o carrega o drive se for um arquivo XML 
+					//N√£o carrega o drive se for um arquivo XML 
 					
 					//if(arquivoXML.equals("")){
 					if(arquivoXML==null){
@@ -750,7 +750,7 @@ public class GeraClasse extends JFrame {
 			                v = xml.lerRegistros(nomeTabela);
 			                Registros[] r = new Registros[v.size()];
 			                
-			                //Copia o conte˙do do vetor para o Array
+			                //Copia o conte√∫do do vetor para o Array
 			                v.copyInto(r);
 			                CarregaCampos(r);
 						}
@@ -770,7 +770,7 @@ public class GeraClasse extends JFrame {
 					txtNomeServletConsulta.setText("Consulta"+nomeArq+"Servlet.java");
 					txtNomeServletExclusao.setText("Exclui"+nomeArq+"Servlet.java");
 					txtNomeServletInclusao.setText("Insere"+nomeArq+"Servlet.java");
-					txtnomeConsultaHtml.setText("Consultar"+nomeArq+".jsp");  //Era html agora È jsp					
+					txtnomeConsultaHtml.setText("Consultar"+nomeArq+".jsp");  //Era html agora √© jsp					
 					txtnomeMenuPrincJsp.setText("MenuPrinc"+nomeArq+".jsp"); 
 					txtnomeMenu_princJsp.setText("menu_princ.jsp"); 
 					txtNomeGrid_Detalhe.setText("Grid_Detalhe"+nomeArq+".jsp");
@@ -859,7 +859,7 @@ public class GeraClasse extends JFrame {
 		   }
 		};
 
-      //Bot„o GeraClasse ->agora a chamada È pelo menu
+      //Bot√£o GeraClasse ->agora a chamada √© pelo menu
       private ActionListener btnAnalyticaClick = new ActionListener(){    
          public void actionPerformed(ActionEvent ae){
             
@@ -867,7 +867,7 @@ public class GeraClasse extends JFrame {
             System.out.println("Estou no ActionListener btnAnalyticaClick...");
             System.out.println("");
             
-            //Verifica se extrair· os dados de um arquivo XML
+            //Verifica se extrair√° os dados de um arquivo XML
             //if(txtCaminhoXml.getText().equals("")){
              if(arquivoXML.equals("")){
                
@@ -882,19 +882,19 @@ public class GeraClasse extends JFrame {
                //Cria array de registros com tamanho do vetor
                regSelecionados = new Registros[v.size()];
 
-               //Copia o conte˙do do vetor para o Array
+               //Copia o conte√∫do do vetor para o Array
                v.copyInto(regSelecionados);
                   
                System.out.println("regSelecionados.length->"+regSelecionados.length);
                               
-               //Carrega a vari·veis p˙blicas que ser„o usadas na classe
+               //Carrega a vari√°veis p√∫blicas que ser√£o usadas na classe
                nomeBean = txtNomeClasse.getText().substring(0,txtNomeClasse.getText().length()-5);
  
                
                   
                  }//if
                                 
-             JOptionPane.showMessageDialog(null, "Arquivo do Analytica gerado com sucesso!", "ConfirmaÁ„o", JOptionPane.INFORMATION_MESSAGE);
+             JOptionPane.showMessageDialog(null, "Arquivo do Analytica gerado com sucesso!", "Confirma√ß√£o", JOptionPane.INFORMATION_MESSAGE);
          
          };
       };
@@ -903,7 +903,7 @@ public class GeraClasse extends JFrame {
 
      /****** FIM DOS LISTENERS  *********/
 		
-	 /***** InÌcio dos mÈtodos auxiliares   ******/
+	 /***** In√≠cio dos m√©todos auxiliares   ******/
 	
 	public static String plm(String s){
 	   return  s.substring(0,1).toUpperCase() + s.substring(1).toLowerCase();
@@ -1019,7 +1019,7 @@ public class GeraClasse extends JFrame {
 		return str_main;	
 	}	
 	  
-	//Fim dos mÈtodos auxiliares	
+	//Fim dos m√©todos auxiliares	
 
 }//class
 	

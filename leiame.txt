@@ -55,9 +55,8 @@ e também altere o usuário, senha no arquivo BaseDAO_Xxx.java e o owner no arqu
     --------------------------------------------------------------------------
 7) Criar outro projeto, tipo Web - Dynamic Web Project, apontando para a pasta que foi criada pelo Build.xml. 
 	Quando compilar o projeto, o Eclipse criará uma pasta "\build" onde o Eclipse jogará as classes criadas.
-	(NOTA: essa pasta "\build" é sugerida como default quando compilar o prj, caso faça tudo pelo Eclipse e não usarmos os passos (f) e  (g), então já altere esse caminho para a pasta ...\WebContent\WEB-INF\classes que o build_prj.xml jogaria.) 
+	(NOTA: essa pasta "\build" é sugerida como default quando compilar o prj, caso faça tudo pelo Eclipse e não usarmos os passos (f) e  (g), então já altere esse caminho para a pasta Prj_xxxx/WebContent/WEB-INF/classes que o build_prj.xml jogaria.) 
 	
 	Problemas a acertar:
-	a) Colocar os fontes .jar na pasta com.util. Atualmente o build.xml coloca os .class, deverá ser .jar
-	b) Alterar a package dos '.jars" para com.util.  Os ".jars' estão com apackage errada : com.warsys.geraclasse.util.
-	c) Copiar o arquivo BaseDAO_Pgsql.java na pasta com.xxxxx.base e alterar a package para com.xxxxx.base
+	a) Colocar os fontes .jar na pasta com.util. Atualmente o build.xml coloca os .class, deverá ser .jar (Não sei se já está acertado!)
+

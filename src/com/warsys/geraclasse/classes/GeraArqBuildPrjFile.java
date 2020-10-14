@@ -29,7 +29,7 @@ public class GeraArqBuildPrjFile {
             a.escrever("      <copy todir="+ '\"'+"${deploy.home}"+ '\"'+">  <fileset dir ="+ '\"'+"."+ '\"' +"/> </copy>",0);        
             a.escrever("      <!--<move file="+ '\"'+"${deploy.home}/WEB-INF/web.xml_"+ GeraClasse.nomeBean + '\"'+" tofile="+ '\"'+"${deploy.home}/WEB-INF/web.xml"+ '\"'+"/>-->",0);
             a.escrever("      <delete file="+ '\"'+"${deploy.home}/build_prj.xml"+ '\"'+"/>",0);         
-            a.escrever("      <copy todir="+ '\"'+"${deploy.home}/WEB-INF/classes"+ '\"'+">  <fileset dir ="+ '\"'+"${app.home}/build/classes"+ '\"'+"/> </copy>",0);
+            a.escrever("      <copy todir="+ '\"'+"${deploy.home}/WEB-INF/classes"+ '\"'+">  <fileset dir ="+ '\"'+"${app.home}/WebContent/WEB-INF/classes"+ '\"'+"/> </copy>",0);
             a.escrever("   </target>",0);
             a.escrever("</project>",0);
             a.escrever("",0);

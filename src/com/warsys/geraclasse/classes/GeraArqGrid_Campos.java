@@ -92,14 +92,14 @@ public class GeraArqGrid_Campos {
             //a.escrever("    caminho = location.protocol+"+'\"'+"//"+'\"'+"+location.host+"+'\"'+"/"+GeraClasse.nomeBean.toLowerCase()+"/"+'\"'+";",0);
             a.escrever("    caminho = location.protocol+"+'\"'+"//"+'\"'+"+location.host+"+'\"'+"/"+ nomeEmpSist +"/imagens/"+'\"'+";",0);
             a.escrever("",0); 
-            a.escrever("//Ignorar os gifs de 0 a 3 pois correspondem aos botıes",0);
+            a.escrever("//Ignorar os gifs de 0 a 3 pois correspondem aos bot√µes",0);
             a.escrever("num_gif=4;",0);
             a.escrever("idImag=idImag+num_gif;",0);
             a.escrever("",0);
             a.escrever("//Limpa os gifs",0);
             a.escrever("    for(i=num_gif;i < qtd;i++){",0);
             a.escrever("",0); 
-            a.escrever("      if (document.images[i].src==caminho+"+'\"'+"arrowrmenu.gif"+'\"'+"){",0);
+            a.escrever("      if (document.images[i].src.toLowerCase()==caminho+"+'\"'+"arrowrmenu.gif"+'\"'+"){",0);
             a.escrever("         document.images[i].src="+'\"'+"imagens/arrowbr.gif"+'\"'+";",0);
             a.escrever("      }",0);
             a.escrever("    }",0);  
@@ -131,7 +131,7 @@ public class GeraArqGrid_Campos {
             }
             
             a.escrever(") && opcao != "+'\"'+"consultar"+'\"'+"){",0);
-            a.escrever("      alert("+'\"'+"… necess·rio selecionar o registro!"+'\"'+");",0);
+            a.escrever("      alert("+'\"'+"√â necess√°rio selecionar o registro!"+'\"'+");",0);
             a.escrever("      return false;",0);
             a.escrever("   }",0);
             a.escrever("   else",0);
@@ -140,7 +140,7 @@ public class GeraArqGrid_Campos {
             a.escrever("        case ("+'\"'+"excluir"+'\"'+"):",0);
             a.escrever("        {",0);
             
-            a.escrever("   if (confirm ("+'\"'+"VocÍ tem certeza que deseja excluir este registo ?"+'\"'+")) {",0);
+            a.escrever("   if (confirm ("+'\"'+"Voc√™ tem certeza que deseja excluir este registo ?"+'\"'+")) {",0);
             a.escrever("      window.status = "+'\"'+"Aguarde processamento..."+'\"'+";",0);
             a.escrever("      frmForm1.action ='Exc"+GeraClasse.nomeBean+"';",0);
             a.escrever("      frmForm1.submit();",0);
@@ -171,7 +171,7 @@ public class GeraArqGrid_Campos {
             }
             
             a.escrever("){",0);
-            a.escrever("         if (confirm ("+'\"'+"VocÍ n„o especificou o registro. Deseja trazer todos?"+'\"'+")) {",0);        
+            a.escrever("         if (confirm ("+'\"'+"Voc√™ n√£o especificou o registro. Deseja trazer todos?"+'\"'+")) {",0);        
             a.escrever("            window.status = "+'\"'+"Aguarde processamento..."+'\"'+";",0);
             a.escrever("            frmForm1.action ='Con"+GeraClasse.nomeBean+"';",0);
             a.escrever("            frmForm1.submit();",0);
@@ -274,7 +274,7 @@ public class GeraArqGrid_Campos {
                
                String nomeLabel;
                
-               //Verifica se h· nome para o label sen„o pega o nome da coluna.
+               //Verifica se h√° nome para o label sen√£o pega o nome da coluna.
                if (regConvertido[i].getNomeColuna()==null){
                   nomeLabel=regConvertido[i].getColuna();
                }else{

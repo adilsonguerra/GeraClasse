@@ -15,8 +15,6 @@ public class GeraArqBuildPrjFile {
             Arquivo a = new Arquivo("");
             a.criar("build_prj.xml");
 		 
-		 "+'\"'+
-                  +'\"'+"
             a.escrever("<?xml version="+'\"'+"1.0"+'\"'+" encoding="+ '\"'+"iso-8859-1"+ '\"'+" ?>",0);
             a.escrever("<!-- Careega toda a estrutura para o tomcat -->",0);
             a.escrever("<project default="+ '\"'+"carrega_tomcat"+ '\"'+" basedir="+ '\"'+"."+ '\"'+" >",0);
